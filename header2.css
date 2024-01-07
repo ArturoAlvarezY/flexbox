@@ -1,0 +1,51 @@
+.body{ 
+ background: gray;
+ margin: 0;
+}
+
+
+.container {
+    display: flex;
+    Width: 100%;
+    background-color: white;
+}
+
+#title{
+    color: blueviolet;
+    font-family: Garamond;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.menu {
+color: purple;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+list-style-type: none;
+gap: 10px;
+    position: relative;
+    top: 15px;
+    right: 35px;
+    
+}
+
+.button {
+    background: blueviolet;
+    color: white;
+    display: flex;
+    border-radius: 25px;
+    height: 20px;
+    position: relative;
+    top: 30px;
+    left: 300px;   
+}
+
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    position:relative;
+    left: 320px;
+    top: 30px;
+}
